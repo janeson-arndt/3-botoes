@@ -1,0 +1,84 @@
+.titulo2{
+    font-size: 20px;
+    display: inline;
+    font-family: 'Lucida Sans';
+    margin:10px;
+    color: #767676;
+    font-weight: lighter;
+}
+
+#titulo1 {
+    font-size: 25px;
+    font-family: 'Lucida Sans';
+    margin:10px;
+    color: #767676;
+    font-weight: lighter;
+}
+
+#menu ul {
+    padding:10px;
+    margin:0px;
+    background-color:#EDEDED;
+    list-style:none;
+}
+
+#menu ul li { display: inline; }
+
+#menu ul li a {
+    padding: 2px 10px;
+    display: inline-block;
+
+    /* visual do link */
+    background-color:#EDEDED;
+    color: #8A05BE;
+    text-decoration: none; /*retira o sublinhado das opções do menu */
+    border-bottom:3px solid #EDEDED; /*retira o sublinhado das opções do menu */
+}
+
+/* Efeito quando passar o mouse*/
+#menu ul li a:hover {
+    background-color:#D6D6D6;
+    color: #6D6D6D;
+    border-bottom:3px solid  #8A05BE;
+}
+
+.roxinho{
+    background-color: #8A05BE;
+    color: #ffffff;
+    border-width: 0px;
+    width: 80px;
+    height:32px;
+}
+.verdinho{
+    background-color: #00ff5f;
+    color: #000000;
+    border-width: 0px;
+    width: 80px;
+    height:32px;
+}
+.azulzinho{
+    background-color: #00a5f0;
+    color: #ffffff;
+    border-width: 0px;
+    width: 80px;
+    height:32px;
+}
+.caixa{
+    background-color: #ffffff;
+    width: 900px;
+    height:550px;
+    border: 1px solid;
+    width: 100%;
+}
+
+.imagem{
+    width: 100%;
+    width: 1500px;
+    height: 700px;
+}
+
+@media(max-width: 700px) {
+    .imagem{
+        width: 100%;
+    }
+}
